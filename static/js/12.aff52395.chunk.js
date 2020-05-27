@@ -1,0 +1,2 @@
+(this.webpackJsonpminesweeper=this.webpackJsonpminesweeper||[]).push([[12],{240:function(e,r,t){"use strict";t.r(r);var a=t(0),p=t.n(a),s=t(88),n=t(91),o=t(94);r.default=function(){return p.a.createElement("div",null,p.a.createElement(o.b,{gameServer:"https://csci4140proj-1155108972-server.herokuapp.com",lobbyServer:"https://csci4140proj-1155108972-server.herokuapp.com",gameComponents:[{game:s.a,board:n.a}]}))}}}]);
+//# sourceMappingURL=12.aff52395.chunk.js.map
