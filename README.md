@@ -1,6 +1,6 @@
 # Minesweeper Battle
 
-20Spring CSCI4140 Programming Project
+20 Spring CSCI4140 Programming Project
 
 Minesweeper Battle is a 1 vs 1 web-based online battle game.\
 Here is the demo url: https://hotszyanann.github.io/csci4140proj-1155108972/ \
