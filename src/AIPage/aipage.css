@@ -1,0 +1,41 @@
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); 
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.title{
+  font-size:5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.subtitle{
+  font-size:4rem;
+  font-weight: 500;
+}
+
+.button{
+    width: 20rem;
+    font-size: 1.5rem !important;
+    border: 1px solid #34ffff !important;
+    color: #34ffff !important;
+}
+
+.button:hover{
+    background-color: #34ffff !important;
+    color: rgb(50, 50, 50) !important;
+}
+
+.margin{
+  margin-top: 1rem;
+}
+
+.flexGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,127 @@
+
+
+.selectDisable{
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.gameBoardCell{
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+}
+.cell{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: default;
+    border-top: 2px solid rgb(68, 68, 68);
+    border-left: 2px solid rgb(68, 68, 68);
+    border-right: 2px solid rgb(68, 68, 68);
+    border-bottom: 2px solid rgb(68, 68, 68);
+}
+
+.cellActive:hover{
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+}
+.cellActive:active{
+    border-top: 2px solid rgb(68, 68, 68);
+    border-left: 2px solid rgb(68, 68, 68);
+    border-right: 2px solid rgb(68, 68, 68);
+    border-bottom: 2px solid rgb(68, 68, 68);
+    background-color:rgb(68, 68, 68);
+}
+
+.cellActive{
+    cursor: pointer;
+    background-color: grey;
+    border-top: 2px solid rgb(197, 197, 197);
+    border-left: 2px solid rgb(197, 197, 197);
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+
+
+.gameBoardTable{
+    border-collapse: collapse;
+}
+.showingMineValue{
+    color:red;
+}
+.minebtnGroups{
+    display: flex;
+}
+.minebtnStyle{
+    width: 40px;
+    height: 40px;
+    border: 2px solid grey;
+    color: grey;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+.mineBtnActive{
+    border: 2px solid #288d8d;
+    cursor: pointer;
+    color: #288d8d;
+}
+.mineBtnActive:hover{
+    border: 2px solid #34ffff;
+    color: #34ffff;
+}
+
+.mineBtnActive:active{
+    border: 2px solid #34ffff;
+    color: #34ffff;
+}
+.temp{
+    flex: 0 1 50px;
+}
+.selectPressed{
+    border: 2px solid #34ffff;
+    color: #34ffff;
+}
+.remainMineValue{
+    text-align: center;
+}
+.cellChangeable{
+    background: linear-gradient(45deg, rgb(68, 68, 68) 90%, #ffed4b 90%);
+    cursor: pointer;
+}
+.gameBoardSelectedMine{
+    box-shadow: 0 0 5px 3px #34ffff;
+}
+
+.game-text{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.game-vs{
+    font-size:3rem;
+}
+.game-detailgp{
+    flex: 1 0
+}
+
+.flexGroup{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+.subtitle{
+   
+    text-align: center; 
+    font-size:3rem;
+    font-weight: 500;
+  }
