@@ -28,7 +28,7 @@ const AIEasy = Client({
       gameMetadata={gameMetadata}
     />
   ),
-  debug: true
+  debug: false
 });
 
 export default AIEasy;

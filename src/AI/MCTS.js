@@ -79,10 +79,10 @@ class Node {
       }
     }
     else {*/
-      if (this.game.G.hp[0] <= this.mcts.orginalhp[0] - 2 || this.game.G.hp[0] <= 0) {
+      if (this.game.G.hp[0] <= this.mcts.orginalhp[0] - 1 || this.game.G.hp[0] <= 0) {
         return 1;
       }
-      else if (this.game.G.hp[1] <= this.mcts.orginalhp[1] - 2 || this.game.G.hp[1] <= 0) {
+      else if (this.game.G.hp[1] <= this.mcts.orginalhp[1] - 1 || this.game.G.hp[1] <= 0) {
         return 0;
       }
       else {
@@ -296,6 +296,8 @@ class MCTS {
       mine[this.aiMine[i][1] - 1] -= 1
     }
     let randomizeBoard = randomizeBoardAIMine
+
+
     // found minable place
     /*let knownMine = Array(x * y).fill(null);
       for (let i = 0; i < knownMine.length; i++) {

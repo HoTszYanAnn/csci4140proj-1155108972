@@ -21,7 +21,7 @@ const AIvsAI = Client({
       gameMetadata={gameMetadata}
     />
   ),
-  debug: true
+  debug: false
 });
 
 export default AIvsAI;
