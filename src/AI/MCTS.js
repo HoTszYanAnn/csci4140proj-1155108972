@@ -57,7 +57,7 @@ class Node {
         break;
       }
     }
-    if (this.parent && this.parent.children.length < (x * y / 4)) {
+    /*if (this.parent && this.parent.children.length < (x * y / 3)) {
      
       if (this.game.G.hp[0] <= 0) {
         return 1;
@@ -78,11 +78,11 @@ class Node {
         }
       }
     }
-    else {
-      if (/*this.game.G.hp[0] <= this.mcts.orginalhp[0] - 2 || */this.game.G.hp[0] <= 0) {
+    else {*/
+      if (this.game.G.hp[0] <= this.mcts.orginalhp[0] - 2 || this.game.G.hp[0] <= 0) {
         return 1;
       }
-      else if (/*this.game.G.hp[1] <= this.mcts.orginalhp[1] - 2 ||*/ this.game.G.hp[1] <= 0) {
+      else if (this.game.G.hp[1] <= this.mcts.orginalhp[1] - 2 || this.game.G.hp[1] <= 0) {
         return 0;
       }
       else {
@@ -96,7 +96,7 @@ class Node {
         } else {
           //console.log(this.game.G.cells)
         }
-      }
+     // }
     }
     return false;
   }
@@ -368,7 +368,7 @@ class MCTS {
     } while (randomWrongFlag);
     for(let i = 0; i < x*y; i++){
       if (minable[i] == null && randomizeBoard[i] == null){
-        if (Math.floor(Math.random()* 2)){
+        if (Math.floor(Math.random()* 3)){
           randomizeBoard[i] = 1;
         }
       }
